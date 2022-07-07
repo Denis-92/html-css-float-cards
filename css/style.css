@@ -10,12 +10,7 @@ body {
     font-family: sans-serif;
 }
 
-/* ----- CONTENT ----- */
-
-.wrap {
-    text-align: center;
-    margin: 20px 150px;
-}
+/* ----- UTILITY ----- */
 
 .float-left {
     float: left;
@@ -29,4 +24,24 @@ body {
     content: "";
     display: table;
     clear: both;
+}
+
+/* ----- CONTENT ----- */
+
+h3 {
+    display: inline;
+}
+
+.wrap {
+    text-align: center;
+    margin: 20px 150px;
+}
+
+.floating-card {
+    background-color: black;
+    color: white;
+}
+
+.email {
+    color: aqua;
 }
