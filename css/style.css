@@ -28,12 +28,22 @@ body {
 
 /* ----- CONTENT ----- */
 
-h3, p {
-    display: inline-block;
+h1 {
+    text-align: center;
+    color: #e53170;
+}
+
+h1 + p {
+    text-align: center;
+    margin: 20px;
+}
+
+p {
+    font-size: small;
 }
 
 .wrap {
-    margin: 50px 200px;
+    margin: 20px auto;
     max-width: 1000px;
     border: 5px solid violet;
 }
@@ -54,10 +64,13 @@ h3, p {
 
 img {
     width: 25%;
-    margin: 0 10px 0 0;
 }
 
 .info {
-    margin-left: 20px;
-    display: inline;
+    margin: 10px;
+    text-indent: 10px;
+}
+
+.wrap .clearfix {
+    margin: 0 -10px;
 }
