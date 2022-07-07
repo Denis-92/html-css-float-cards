@@ -1,6 +1,21 @@
-/* CSS Reset */
+/* ----- GENERICS ----- */
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+/* ----- CONTENT ----- */
+
+h1 {
+    text-align: center;
+}
+
+.float-left {
+    float: left;
 }
