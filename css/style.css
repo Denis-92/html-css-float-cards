@@ -7,7 +7,7 @@
 }
 
 body {
-    font-family: sans-serif;
+    font-family: 'Asap', sans-serif;
 }
 
 /* ----- UTILITY ----- */
@@ -54,7 +54,7 @@ p {
 }
 
 .email {
-    color: aqua;
+    color: #2db3cd;
 }
 
 .clearfix > div {
