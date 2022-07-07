@@ -28,12 +28,11 @@ body {
 
 /* ----- CONTENT ----- */
 
-h3 {
+h3, p {
     display: inline-block;
 }
 
 .wrap {
-    text-align: center;
     margin: 50px 200px;
     max-width: 1000px;
     border: 5px solid violet;
@@ -55,4 +54,10 @@ h3 {
 
 img {
     width: 25%;
+    margin: 0 10px 0 0;
+}
+
+.info {
+    margin-left: 20px;
+    display: inline;
 }
