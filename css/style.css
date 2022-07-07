@@ -35,6 +35,8 @@ h3 {
 .wrap {
     text-align: center;
     margin: 20px 150px;
+    max-width: 1000px;
+    margin: 0 auto;
 }
 
 .floating-card {
@@ -44,4 +46,13 @@ h3 {
 
 .email {
     color: aqua;
+}
+
+.clearfix > div {
+    padding-right: 20px;
+    width: calc(100% / 3);
+}
+
+img {
+    width: 25%;
 }
